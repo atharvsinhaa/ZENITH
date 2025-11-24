@@ -1,3 +1,7 @@
+<p align="center">
+<img width="453" height="147" alt="Screenshot 2025-11-24 at 9 44 49 PM" src="https://github.com/user-attachments/assets/94180ba3-84e8-4799-b45e-a300889eb851" />
+</p>
+
 <h1 align="center">🌿 ZENITH — AI Powered Mental Health & Wellbeing Platform</h1>
 
 <p align="center">
@@ -107,7 +111,100 @@ Connects users with verified professionals.
 - Book certified therapists  
 - Multilingual support  
 - Specialization & price filters  
-- Secure online/offline sessions  
+- Secure online/offline sessions
+
+___
+
+## 💻 Tech Stack 
+<p align="center">
+  <img src="https://media.giphy.com/media/h408T6Y5GfmXBKW62l/giphy.gif" width="350">
+</p>
+
+## 🖥 Frontend
+
+React.js
+
+Tailwind CSS
+
+Redux Toolkit
+
+Framer Motion (for animations)
+
+## 🔧 Backend
+
+Node.js / Express
+
+REST API Architecture
+
+JWT Authentication
+
+Microservice-ready structure
+
+## 🤖 AI Layer
+
+Python
+
+Transformers (HuggingFace)
+
+Sentiment & Emotion Models
+
+LLM Integration (OpenAI/LLama/Mistral)
+
+NLP Pipelines for detection
+
+## 🗄 Database
+
+MongoDB (user data, community posts)
+
+PostgreSQL (structured therapy records)
+
+☁ Cloud & DevOps
+
+AWS / GCP / Azure
+
+S3 / Cloud Storage
+
+CloudWatch / Log Monitoring
+
+CI/CD (GitHub Actions)
+
+## 🔐 Security
+
+AES Encryption
+
+OAuth2 / JWT
+
+API Rate Limiting
+
+Secure session handling
+
+<p align="center"> <img src="https://media.giphy.com/media/YQitE4YNQNahy/giphy.gif" width="300" /> </p>
+
+## 🧭 Roadmap
+
+Mobile App
+
+Voice-based AI companion
+
+Offline rural-friendly mode
+
+Community groups expansion
+
+Therapy subscription plans
+
+Regional language expansion
+___
+
+## ⭐ Support ZENITH
+
+If ZENITH inspires you:
+
+🌟 Star the repository
+👥 Share it
+🛠 Contribute
+💬 Spread mental-health awareness
+
+<p align="center"> <img src="https://media.giphy.com/media/l0HUpt2s9Pclgt9Vm/giphy.gif" width="180" /> </p> <h2 align="center">🌿 ZENITH — Rise above. Heal within. Grow beyond.</h2> ```
 
 ---
 
