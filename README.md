@@ -1,7 +1,7 @@
 <h1 align="center">🌿 ZENITH — AI Powered Mental Health & Wellbeing Platform</h1>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="200" />
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="200" />
 </p>
 
 <p align="center">
@@ -10,7 +10,7 @@
 
 ---
 
-# 🌱 **What is ZENITH?**
+# 🌱 What is ZENITH?
 ZENITH is a technology-driven mental-health & wellbeing platform designed to solve the growing challenges around emotional wellness in India. It blends:
 
 - AI  
@@ -19,20 +19,20 @@ ZENITH is a technology-driven mental-health & wellbeing platform designed to sol
 - Therapy  
 - Behavioural science  
 
-ZENITH aims to bridge the **awareness gap**, reduce **stigma**, and make mental wellbeing **affordable**, **private**, and **accessible**.
+ZENITH aims to bridge the awareness gap, reduce stigma, and make mental wellbeing affordable, private, and accessible.
 
 ---
 
-# 🌟 **Why ZENITH?**
+# 🌟 Why ZENITH?
 India has the world’s largest youth population — yet millions face:
 
 - Limited access to mental-health professionals  
-- High stigma around seeking help  
+- High stigma  
 - Rising anxiety & depression  
 - Expensive therapy  
 - Lack of counsellors outside urban cities  
 
-❗ **ZENITH solves this using AI + community support + verified educational content + accessible therapy options.**
+**ZENITH solves this using AI + community support + verified education + accessible therapy options.**
 
 <p align="center">
   <img src="https://media.giphy.com/media/xUA7bdpLxQhsSQdyog/giphy.gif" width="350" />
@@ -40,34 +40,32 @@ India has the world’s largest youth population — yet millions face:
 
 ---
 
-# 🧩 **Core Modules of ZENITH**
+# 🧩 Core Modules of ZENITH
 
 ## 🧠 1. AI Early Detection System
-Uses AI + behavioural indicators to identify early emotional risk patterns.
+Uses AI + behavioural indicators to identify early emotional-risk patterns.
 
 ### Analyzes:
 - Mood fluctuations  
 - Emotion cues  
-- Journal-based reflections  
+- Journal reflections  
 - Stress triggers  
 - Lifestyle indicators  
-- Tone & sentiment through NLP  
+- Tone & sentiment  
 
-⚠️ *Not diagnostic — assists by raising awareness and providing guidance.*
+⚠️ *Not diagnostic — assists with awareness.*
 
 ---
 
 ## 💬 2. AI Mental Health Companion
-
-A 24×7 conversational wellness partner.
+A 24×7 conversational wellbeing partner.
 
 ### Capabilities:
 - Emotional check-ins  
 - CBT-inspired reframing  
-- Mindfulness + grounding  
+- Mindfulness exercises  
 - Guided reflections  
-- Habit-building suggestions  
-- Conversation support during distress  
+- Journaling support  
 
 <p align="center">
   <img src="https://media.giphy.com/media/l3q2XhfQ8oCkm1Ts4/giphy.gif" width="250"/>
@@ -76,63 +74,48 @@ A 24×7 conversational wellness partner.
 ---
 
 ## 📚 3. Awareness & Education Hub
-
-A learning center designed for mental-health literacy across India.
+A scalable mental-health literacy center.
 
 ### Includes:
-- Scientific articles  
-- Regional language versions  
-- Mental health myths vs facts  
-- Bite-sized learning videos  
-- Stress-management guides for students & professionals  
-- Daily wellness practices  
+- Science-backed articles  
+- Regional language content  
+- Wellness videos  
+- Stress-management guides  
 
 ---
 
 ## 🧑‍🤝‍🧑 4. Community Platform
-
-A safe, anonymous, moderated online forum.
+A safe, anonymous, moderated social space.
 
 ### Users can:
-- Share feelings & thoughts  
-- Discuss challenges  
-- Ask for guidance  
+- Share thoughts  
+- Ask questions  
 - Join support groups  
 - Participate in events  
-- Engage with peers  
 
-### Safety:
+Safety:
 - AI moderation  
 - Human review  
-- Toxicity filters  
-- Anonymous posting enabled  
+- Anonymized posting  
 
 ---
 
 ## 👩‍⚕️ 5. Therapy Access Marketplace
-
-A marketplace to connect users with verified mental-health professionals.
+Connects users with verified professionals.
 
 ### Features:
 - Book certified therapists  
-- Choose by:
-  - Language  
-  - Price  
-  - Specialization  
-  - Experience  
-- Online/offline sessions  
-- Secure chat/video  
-- Student support pricing  
+- Multilingual support  
+- Specialization & price filters  
+- Secure online/offline sessions  
 
 ---
 
-# 🏛️ **System Architecture (Detailed + Visual)**
-
-Below are all four architectural diagrams included in your design:
+# 🏛️ System Architecture (All Diagrams Included)
 
 ---
 
-# 🔷 **1. UML Diagram**
+# 🔷 1. UML Diagram
 
 ```mermaid
 classDiagram
@@ -143,28 +126,33 @@ classDiagram
       +role: String
       +login()
     }
+
     class AuthService {
       +login()
       +logout()
       +verifyToken()
     }
+
     class ChatSession {
       +sessionId
       +startTime
       +endTime
       +messages[]
     }
+
     class AIEngine {
       +analyzeMessage()
       +detectEmotion()
       +generateResponse()
     }
+
     class Therapist {
       +therapistId
       +specialization
       +availableSlots[]
       +bookSlot()
     }
+
     User --> ChatSession : creates
     ChatSession --> AIEngine : uses
     User --> Therapist : books
