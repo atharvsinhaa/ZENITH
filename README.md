@@ -2,7 +2,7 @@
 <img width="453" height="147" alt="Screenshot 2025-11-24 at 9 44 49 PM" src="https://github.com/user-attachments/assets/94180ba3-84e8-4799-b45e-a300889eb851" />
 </p>
 
-<h1 align="center">🌿 ZENITH — AI Powered Mental Health & Wellbeing Platform</h1>
+<h1 align="center">🌿 Zenith — AI Powered Mental Health & Wellbeing Platform</h1>
 
 <p align="center">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="200" />
